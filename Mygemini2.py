@@ -13,7 +13,7 @@ from google.genai import types
 UI_FILE_NAME = "Mygemini.ui"
 
 # 🌟 중요: 실제 API 키를 입력했습니다. 이 키를 실제 사용하는 키로 교체하세요. 🌟
-GEMINI_API_KEY = "AIzaSyBE_BiG9p1BLDLLP-ADP05MvtoH8MZw4Tw"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 # 2. Gemini 클라이언트 초기화
 try:
@@ -135,4 +135,5 @@ class GeminiApp(QtWidgets.QDialog):
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = GeminiApp()
+
     sys.exit(app.exec())
