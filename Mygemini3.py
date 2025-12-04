@@ -17,7 +17,7 @@ UI_FILE_NAME = "Mygemini.ui"
 # 🌟 중요: 사용자 요청에 따라 새로운 API 키를 임시로 하드코딩합니다. 🌟
 # 이 키는 채팅에 노출되어 보안 위험이 있으며, Google에 의해 곧 차단될 수 있습니다. 
 # 새로운 키를 발급받으신 후, 아래 값을 새로운 키로 교체해 주세요.
-GEMINI_API_KEY = "AIzaSyBViPGxOy1juy8dSEAJDJsuf-nPfwEir3o"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 # 2. Gemini 클라이언트 초기화
 if not GEMINI_API_KEY:
@@ -223,4 +223,5 @@ class GeminiApp(QtWidgets.QDialog):
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = GeminiApp()
+
     sys.exit(app.exec())
