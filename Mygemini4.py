@@ -17,7 +17,7 @@ import uuid # 고유한 임시 파일 이름을 위해 필요
 UI_FILE_NAME = "Mygemini.ui"
 
 # 🌟 중요: API 키를 여기에 입력하세요. 🌟
-GEMINI_API_KEY = "AIzaSyBViPGxOy1juy8dSEAJDJsuf-nPfwEir3o"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 # 2. Gemini 클라이언트 초기화
 if not GEMINI_API_KEY:
@@ -227,4 +227,5 @@ if __name__ == '__main__':
                 
     app = QtWidgets.QApplication(sys.argv)
     window = GeminiApp()
+
     sys.exit(app.exec())
